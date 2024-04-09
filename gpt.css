@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px;
+    background-color: #333; /* Dark header */
+}
+
+.left-sec img {
+    width: 46%;
+    padding-left: 16px;
+}
+
+.mid-sec form {
+    display: flex;
+    width: 628px;
+    height: 40px;
+}
+
+.mid-sec input {
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    padding: 12px;
+    font-size: 1.6rem;
+    border: 1px solid #ccc; /* Lighter border */
+}
+
+.mid-sec button {
+    width: 64px;
+    border: 1px solid #ccc; /* Lighter border */
+    border-radius: 0 5px 5px 0;
+    padding-top: 4px;
+    background-color: #555; /* Darker button */
+    cursor: pointer;
+}
+
+.mid-sec button:hover {
+    background-color: #777; /* Lighter hover effect */
+}
+
+.mid-sec .mic {
+    background-color: #888; /* Grey microphone button */
+}
+
+.right-sec a {
+    color: #ddd; /* Light text */
+}
+
+aside {
+    background-color: #fff; /* White sidebar */
+}
+
+.nav-link {
+    color: #333; /* Dark text */
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light hover effect */
+}
+
+.active {
+    background-color: #ddd; /* Active link background */
+}
+
+hr {
+    background-color: #ccc; /* Lighter horizontal rule */
+}
+
+nav p {
+    color: #555; /* Darker section text */
+}
+
+main {
+    border-top: 1px solid #ccc; /* Lighter top border */
+}
+
+.video-title {
+    color: #333; /* Dark text for video title */
+}
+
+.video-creator, .title span {
+    color: #555; /* Darker text for video creator and spans */
+}
+
+.video-creator:hover {
+    color: #222; /* Dark hover effect */
+}
